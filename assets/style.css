@@ -67,8 +67,10 @@ header .navBar ul li a {
 
 /* Css for the profile photo */
 .hero {
-    height: 250px;
-    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
 }
 
 /* Css for profile phot background image */
@@ -86,7 +88,8 @@ header .navBar ul li a {
     text-align: right;
     font-size: 20px;
     font-style: inherit;
-    color: #01090e;
+    color: darkblue;
+    margin-right: 20px;
     text-shadow: 2px 2px 5px rgb(109, 33, 33);
 }
 
@@ -94,11 +97,9 @@ header .navBar ul li a {
 .content-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 200px;
+    justify-content: flex-start;
     width: 100%;
     margin: 20px 20px;
-    /* text-align: center; */
 }
 
 /* CSS for my work */
@@ -109,10 +110,11 @@ header .navBar ul li a {
     align-items: stretch;
     justify-content: space-between;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, 10vw);
+    grid-template-rows: repeat(2, 10vw);
     grid-gap: 10px;
 
 }
+
 /* CSS for the url image */
 .project-photo {
     width: 100%;
@@ -120,6 +122,7 @@ header .navBar ul li a {
     object-fit: cover;
     border: solid 3px rgb(84, 84, 202)
 }
+
 /* CSS for using grids for url */
 .proj1 {
     position: relative;
@@ -133,13 +136,13 @@ header .navBar ul li a {
     position: relative;
     grid-column-start: 3;
     grid-row-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
     grid-row-end: 3;
 }
 
 .proj3 {
     position: relative;
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-row-start: 1;
     grid-column-end: 7;
     grid-row-end: 3;
@@ -154,6 +157,7 @@ figure {
 figure:hover {
     opacity: .5;
 }
+
 /* CSS for figure caption */
 figcaption {
     background-color: var(--light);
@@ -165,13 +169,8 @@ figcaption {
     border: none;
 }
 
-/* CSS for class class in contact */
-#contact-me {
-    margin-top: 200px;
-}
-
 .about-title {
-    text-align: justify;
+    text-align: left;
     display: inline-block;
     display: flex;
     flex-direction: row;
@@ -179,14 +178,11 @@ figcaption {
     margin: 20px 20px;
 }
 
-.content-row {
-    flex: 200;
-}
 
 .contact-details ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: left;
     list-style: none;
     width: 100%;
@@ -195,11 +191,9 @@ figcaption {
 
 .contact-details ul li a {
 
-    margin: 80px 20px;
-    border-bottom: 2px solid;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    align-items: left;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 20px 20px;
 }
