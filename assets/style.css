@@ -184,6 +184,14 @@ header .navBar ul li a {
     grid-row-end: 3;
 }
 
+.proj4 {
+    position: relative;
+    grid-column-start: 7;
+    grid-row-start: 1;
+    grid-column-end: 9;
+    grid-row-end: 3;
+}
+
 figure {
     border: 1px #cccccc solid;
     position: relative;
@@ -239,7 +247,8 @@ figcaption {
 
     .proj1,
     .proj2,
-    .proj3 {
+    .proj3, 
+    .proj4 {
         width: 100%;
     }
 
@@ -248,6 +257,9 @@ figcaption {
     }
 
     .proj3 {
+        margin-top: 40px;
+    }
+    .proj4 {
         margin-top: 40px;
     }
 }
@@ -266,7 +278,8 @@ figcaption {
 
     .proj1,
     .proj2,
-    .proj3 {
+    .proj3, 
+    .proj4 {
         width: 100%;
     }
 
@@ -275,6 +288,9 @@ figcaption {
     }
 
     .proj3 {
+        margin-top: 40px;
+    }
+    .proj4 {
         margin-top: 40px;
     }
 }
@@ -293,7 +309,8 @@ figcaption {
 
     .proj1,
     .proj2,
-    .proj3 {
+    .proj3,
+    .proj4 {
         width: 100%;
     }
 
@@ -302,6 +319,9 @@ figcaption {
     }
 
     .proj3 {
+        margin-top: 40px;
+    }
+    .proj4 {
         margin-top: 40px;
     }
 }
@@ -320,7 +340,8 @@ figcaption {
 
     .proj1,
     .proj2,
-    .proj3 {
+    .proj3,
+    .proj4 {
         width: 100%;
     }
 
@@ -329,6 +350,9 @@ figcaption {
     }
 
     .proj3 {
+        margin-top: 40px;
+    }
+    .proj4 {
         margin-top: 40px;
     }
 }
@@ -347,7 +371,8 @@ figcaption {
 
     .proj1,
     .proj2,
-    .proj3 {
+    .proj3,
+    .proj4 {
         width: 100%;
     }
 
@@ -356,6 +381,9 @@ figcaption {
     }
 
     .proj3 {
+        margin-top: 40px;
+    }
+    .proj4 {
         margin-top: 40px;
     }
 }
