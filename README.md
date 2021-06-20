@@ -16,7 +16,11 @@ and the viewer is presented with a responsive layout that adapts to the viewport
 
 ## MyPortfolio Demo
 
+<<<<<<< HEAD
 <img src="./assets/profile.png" alt="my profile" height = 300 width= 200 />
+=======
+<img src="/assets/profile.png " alt="my profile" height = 300 width= 200 />
+>>>>>>> 23235ee08d355afe6bb6b35e5cc115f7c21f7a03
 
 ## Technologies used:
 - HTML
